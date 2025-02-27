@@ -1,7 +1,7 @@
 # vibecoding-arena
 Evaluating the Capabilities of LLM-Assisted Coding Tools in Developing Hyper-Structures on the Hyperware stack.
 
-Bellow is the set of tools to be used to benchmark vibecoding on Hyperware (WIP).
+Below is the set of tools to be used to benchmark vibecoding on Hyperware (WIP).
 
 | Tool            | Website                          |  Type |
 |-----------------|----------------------------------|-------|
