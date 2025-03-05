@@ -1,0 +1,15 @@
+[
+    {
+        "process_name": "hyperware-chat-test",
+        "process_wasm_path": "/hyperware-chat-test.wasm",
+        "on_exit": "Restart",
+        "request_networking": false,
+        "request_capabilities": [
+            "hyperware-chat:hyperware-chat:template.os"
+        ],
+        "grant_capabilities": [
+            "hyperware-chat:hyperware-chat:template.os"
+        ],
+        "public": true
+    }
+]

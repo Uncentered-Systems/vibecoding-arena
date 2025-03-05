@@ -1,2 +1,5 @@
 .DS_Store
 **/.DS_Store
+utilities/process-lib/hyperware_process_lib-1.0.3
+venv/
+*/**/resources/

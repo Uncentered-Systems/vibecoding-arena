@@ -1,0 +1,5 @@
+world hyperware-chat-test-template-dot-os-v0 {
+    import hyperware-chat;
+    import tester;
+    include process-v1;
+}

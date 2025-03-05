@@ -1,0 +1,27 @@
+interface hyperware-chat {
+    variant request {
+        send(send-request),
+        /// history of hyperware-chat with given node
+        history(string),
+    }
+
+    variant response {
+        send,
+        history(list<hyperware-chat-message>),
+    }
+
+    record send-request {
+        target: string,
+        message: string,
+    }
+
+    record hyperware-chat-message {
+        author: string,
+        content: string,
+    }
+}
+
+world hyperware-chat-template-dot-os-v0 {
+    import hyperware-chat;
+    include process-v1;
+}

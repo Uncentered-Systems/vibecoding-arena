@@ -1,0 +1,17 @@
+[
+    {
+        "process_name": "hyperware-chat",
+        "process_wasm_path": "/hyperware-chat.wasm",
+        "on_exit": "Restart",
+        "request_networking": true,
+        "request_capabilities": [
+            "http-server:distro:sys",
+            "vfs:distro:sys",
+            "contacts:contacts:sys",
+            "kv:distro:sys",
+            "homepage:homepage:sys"
+        ],
+        "grant_capabilities": [],
+        "public": true
+    }
+]

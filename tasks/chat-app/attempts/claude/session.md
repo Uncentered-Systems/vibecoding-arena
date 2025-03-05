@@ -1,0 +1,1 @@
+Tried to create a WIT file from scratch (probably want to specify how to handle these cases in the book). In the second prompt, I added a note that there is a built-in contacts managing system.

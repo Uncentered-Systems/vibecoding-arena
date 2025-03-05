@@ -20,9 +20,8 @@ This repository serves as a structured survey of various LLM-assisted coding too
 │   │   └── evaluation.md    # Comparative analysis of different attempts
 │   └── task2/
 ├── tools/                    # Documentation about each tool being tested
-│   ├── claude.md            # Tool-specific setup, capabilities, limitations
-│   ├── windsurf.md
-│   └── kibitz.md
+│   ├── claude.md            # Tool-specific setup, capabilities, 
+│   
 └── evaluation/              # Overall analysis and findings
     ├── metrics.md           # Evaluation criteria and scoring system
     └── results.md           # Comparative analysis across all tasks
