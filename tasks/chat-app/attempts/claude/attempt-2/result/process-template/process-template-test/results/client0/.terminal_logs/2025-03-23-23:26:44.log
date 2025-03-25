@@ -1,0 +1,270 @@
+[Sun, 23 Mar 2025 23:26:44 -0400] going online as a direct node
+[Sun, 23 Mar 2025 23:26:44 -0400] net: listening on port 9000
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: access settings loaded: AccessSettings { public: false, allow: {}, deny: {} }
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: provider initialized
+[Sun, 23 Mar 2025 23:26:44 -0400] homepage:sys: started
+[Sun, 23 Mar 2025 23:26:44 -0400] app-store:sys: started
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: started
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling subscribe from client0.os@hns-indexer:hns-indexer:sys; active_subs len: []
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding , authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain contacts-sys with path /contacts:contacts:sys, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /index.html, authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain contacts-sys with path /contacts:contacts:sys/index.html, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain contacts-sys with path /contacts:contacts:sys/script.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /assets/index-C8VQ0SUE.css, authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain contacts-sys with path /contacts:contacts:sys/ask, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /assets/index-DbPXr-72.js, authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /our, unauthenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /amionline, unauthenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /our.js, unauthenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/apps, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/downloads, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/installed, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: activated url provider ws://localhost:8545
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /hyperware.css, unauthenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/ourapps, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /hyperware.svg, unauthenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/updates, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /h-green.svg, unauthenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: subscribed to logs successfully
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/homepageapps, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling subscribe from client0.os@hns-indexer:hns-indexer:sys; active_subs len: [1]
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /h-plain.svg, unauthenticated, open, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/apps/:id, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /version, authenticated, open, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: subscribed to logs successfully
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: syncing old logs from block: 0
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/downloads/:id, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@hns-indexer:hns-indexer:sys; active_subs len: [2]
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /apps, authenticated, open, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/installed/:id, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /favorite, authenticated, open, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/manifest, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: log len: 2
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: mint os
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: mint client0.os
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /order, authenticated, open, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@hns-indexer:hns-indexer:sys; active_subs len: [2]
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/apps/:id/download, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/apps/:id/install, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/downloads/:id/mirror, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: log len: 3
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: note client0.os: ~ip
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: note client0.os: ~ws-port
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: note client0.os: ~net-key
+[Sun, 23 Mar 2025 23:26:44 -0400] hns-indexer:sys: done syncing old logs.
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling unsubscribe from client0.os@chain:app-store:sys; active_subs len: [2]
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: got unsubscribe from client0.os@chain:app-store:sys but no subscription found
+[Sun, 23 Mar 2025 23:26:44 -0400] set timer to pop in 1000ms
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/downloads/:id/remove, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] set timer to pop in 300000ms
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling subscribe from client0.os@chain:app-store:sys; active_subs len: [2]
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/reset, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/apps/:id/auto-update, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] app-store:sys: subscribed to logs successfully
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@chain:app-store:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/updates/:id/clear, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/mirrorcheck/:id/:node, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /main:app-store:sys/apps-public, authenticated, open, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@chain:app-store:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/index.html, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/gnosis-T7U5EW2Q-CoPEM_sI.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/ja_JP-5VSMWEEI-BwReBtr2.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Safari-PXQIVS6N-B-Lfxb9r.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/zetachain-BMJKVYBN-IK2CZBr3.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/coinbaseWallet-WWX6LF36-BMRj6mTC.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/index-FBiT-aB5.css, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/hi_IN-WUORC2ZB-NNGEi4Wk.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/es_419-XX7GCEOK-Dv_C7rzZ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/refresh-HJGJRASX-D0rkc63_.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/zh_HK-ZZAF3UAE-DfF_I-hp.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/ethereum-RFBAMUVK-WsW8NXqo.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/mantle-KBL3OIYT-DIpe0poV.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/fr_FR-FQ7DSQ4K-DeWnp2Gj.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/uk_UA-FBLFGEKT-CUL3EyYJ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/sign-A7IJEUT5-CGsRnPrd.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/id_ID-NROY6D6K-WS9hlIie.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/login-CWDTIDNK-DhDUYE4b.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/index-CtZZT21K.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/avalanche-MXEFEDSW-DcC5FNt3.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/index.es-DNrpjrFX.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/create-X4WFHLCW-De9pC3ym.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/index-BD3SaTT4.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/index-DF8ORQP6.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/index-BMXoz7yK.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/zora-YZH32HP3-CY3tp3EJ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/ar_AR-OGKOBCOE-C8be8ebk.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/index.html, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/xdc-X7V4QFNF-CSGs0o6M.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/blast-TN2WIMWF-BUZNbRBy.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/zh_CN-R6N3SRTH-BhiD8kJL.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/bsc-RVE67I5L-DVYEF0vl.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/walletConnectWallet-FNSU4KNU-B0ci71fU.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Firefox-ZDK7RHKK-5nyhB0sj.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/ccip-DFb4bAJC.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Safari-PXQIVS6N-B-Lfxb9r.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/scan-DEOT2M37-1-mJ5OyF.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/zetachain-BMJKVYBN-IK2CZBr3.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/connect-MR6XDLIE-BET5HMNk.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/fr_FR-L4QMIDHZ-Bh510oo7.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/refresh-HJGJRASX-D0rkc63_.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/th_TH-EQC4NZAN-fOLas9b_.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Edge-AZ34LAFM-EBh9cG_z.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/ja_JP-HOTHN4EA-De00lV3m.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Windows-GTAT3OTE-K9Pt3pUF.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/ethereum-RFBAMUVK-WsW8NXqo.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/base-Z4LFBE5D-DHfqMzJC.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/mantle-KBL3OIYT-DIpe0poV.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/sign-A7IJEUT5-CGsRnPrd.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/zh_TW-KSS4HRUK-CDmUuHkq.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/klaytn-QTDBZIB3-DyuKTpxX.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/login-CWDTIDNK-DhDUYE4b.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/hardhat-NEEC6JX7-DzuWQYyS.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/ko_KR-GIW3THCV-B6zB9XjR.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/ronin-PNHX5V6H-BS-WPXjQ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/avalanche-MXEFEDSW-DcC5FNt3.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/arbitrum-IA4OWRTN-B0aI2PBQ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/celo-E6XU57FO-C5IguUgF.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/ru_RU-X7PLXGFL-Bh3OSZV7.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/create-X4WFHLCW-De9pC3ym.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/index-CjMOF9f1.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/tr_TR-KV5SUZFG-D39xEmd7.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/index-CETbzq3v.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/pt_BR-F7QMXAJN-CmBeJadH.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Arc-R3PUWRPJ-CUdEQO8X.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/zora-YZH32HP3-CY3tp3EJ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/polygon-WWEUOMKW-CNBYSB1T.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/xdc-X7V4QFNF-CSGs0o6M.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/rainbowWallet-2SR6TVBF-kimcGeuf.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/th_TH-SRCDFUPR-B3dDZiSa.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/blast-TN2WIMWF-BUZNbRBy.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/bn-Ck5S0Mqn.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/bsc-RVE67I5L-DVYEF0vl.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/manta-5V6W5D7G-BnjsGzeJ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/ko_KR-OTV63FKA-BvEjvvth.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Linux-VYP66PDO--MOvpQUa.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Macos-5QL4JBJE-DLNYPiln.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/zkSync-JL26RB7U-BYMs9Lzo.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Chrome-TLI42HDP-BgiVz-ma.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/index-CieV4vKS.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/assets-NU2OP443-COMs-Mo6.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Firefox-ZDK7RHKK-5nyhB0sj.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/cronos-ROYR77VZ-Prn3LRPZ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/scan-DEOT2M37-1-mJ5OyF.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/metaMaskWallet-YFHEHW7V-BggUDXad.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/ar_AR-OBNLAES4-BFYkcBiN.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/connect-MR6XDLIE-BET5HMNk.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/pt_BR-S4ENRQZ4-DAVzp_o7.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Edge-AZ34LAFM-EBh9cG_z.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Brave-24BM36UM-C6C5mkTK.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Windows-GTAT3OTE-K9Pt3pUF.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/base-Z4LFBE5D-DHfqMzJC.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/optimism-VD7XDD2W-DpJY1TMb.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/klaytn-QTDBZIB3-DyuKTpxX.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/ru_RU-ODZNRDPT-CulfT19E.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/hardhat-NEEC6JX7-DzuWQYyS.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/hooks.module-Ddl_h5PS.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/ccip-BTPGySaF.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Opera-BKMCKUXC-CCypmVaM.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain app-store-sys with path /main:app-store:sys/assets/Browser-4R4QKTV2-D3ON1q-S.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/index-Ce9voH0b.css, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/ronin-PNHX5V6H-BS-WPXjQ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/arbitrum-IA4OWRTN-B0aI2PBQ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/hi_IN-JNRRBHWZ-BKr_ydCh.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/tr_TR-YZS5CIK5-DIxalFJe.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Arc-R3PUWRPJ-CUdEQO8X.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/polygon-WWEUOMKW-CNBYSB1T.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/uk_UA-Y3657REC-DkCnRBRR.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/manta-5V6W5D7G-BnjsGzeJ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Linux-VYP66PDO--MOvpQUa.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Macos-5QL4JBJE-DLNYPiln.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/zkSync-JL26RB7U-BYMs9Lzo.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Chrome-TLI42HDP-BgiVz-ma.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/zh_CN-UU5O3W4T-BQkqD9jR.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/assets-NU2OP443-COMs-Mo6.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/cronos-ROYR77VZ-Prn3LRPZ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/es_419-O2GTQZ7N-CnpM_qfZ.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/id_ID-ZGYTXMOP-L8l5O_t6.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Brave-24BM36UM-C6C5mkTK.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/optimism-VD7XDD2W-DpJY1TMb.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Opera-BKMCKUXC-CCypmVaM.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/assets/Browser-4R4QKTV2-D3ON1q-S.js, cached
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding subdomain settings-sys with path /settings:settings:sys/ask, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] http: binding /settings:settings:sys/refresh, authenticated, open, dynamic
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling eth_config_action GetProviders
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling eth_config_action GetAccessSettings
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@settings:settings:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@settings:settings:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@settings:settings:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@settings:settings:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@settings:settings:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:44 -0400] eth: handling request from client0.os@settings:settings:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:45 -0400] http-server: request for /rpc:distro:sys/message
+[Sun, 23 Mar 2025 23:26:45 -0400] http-server: passing on RPC message to vfs:distro:sys
+[Sun, 23 Mar 2025 23:26:45 -0400] hns-indexer:sys: mint client1.os
+[Sun, 23 Mar 2025 23:26:45 -0400] hns-indexer:sys: note client1.os: ~ip
+[Sun, 23 Mar 2025 23:26:45 -0400] hns-indexer:sys: note client1.os: ~ws-port
+[Sun, 23 Mar 2025 23:26:45 -0400] hns-indexer:sys: note client1.os: ~net-key
+[Sun, 23 Mar 2025 23:26:45 -0400] eth: handling request from client0.os@hns-indexer:hns-indexer:sys; active_subs len: [1, 2]
+[Sun, 23 Mar 2025 23:26:45 -0400] hns-indexer:sys: new block: 9
+[Sun, 23 Mar 2025 23:26:46 -0400] hns-indexer:sys: mint client2.os
+[Sun, 23 Mar 2025 23:26:46 -0400] hns-indexer:sys: note client2.os: ~ip
+[Sun, 23 Mar 2025 23:26:46 -0400] hns-indexer:sys: note client2.os: ~ws-port
+[Sun, 23 Mar 2025 23:26:46 -0400] hns-indexer:sys: note client2.os: ~net-key
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: request for /rpc:distro:sys/message
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: passing on RPC message to main:app-store:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] app-store:sys: Extracted and wrote manifest.json
+[Sun, 23 Mar 2025 23:26:47 -0400] app-store:sys: persisted state
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: request for /rpc:distro:sys/message
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: passing on RPC message to main:app-store:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] kernel: no such process process-template:process-template:template.os to kill
+[Sun, 23 Mar 2025 23:26:47 -0400] app-store:sys: successfully installed process-template:template.os
+[Sun, 23 Mar 2025 23:26:47 -0400] kernel: need non-None prompting_message to handle Response Response { inherit: false, body: [123, 34, 69, 114, 114, 34, 58, 34, 78, 111, 80, 97, 99, 107, 97, 103, 101, 34, 125], metadata: None, capabilities: [] }
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: request for /rpc:distro:sys/message
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: passing on RPC message to vfs:distro:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] process-template:template.os: [32m INFO[0m [2mprocess_template[0m[2m:[0m Hyperchat application starting
+
+[Sun, 23 Mar 2025 23:26:47 -0400] http: binding /process-template:process-template:template.os/api, unauthenticated, open, dynamic
+[Sun, 23 Mar 2025 23:26:47 -0400] http: binding /process-template:process-template:template.os, authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:47 -0400] http: binding /process-template:process-template:template.os/index.html, authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:47 -0400] http: binding /process-template:process-template:template.os/assets/index-L9Iz_Cb8.css, authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:47 -0400] http: binding /process-template:process-template:template.os/assets/vite.svg, authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:47 -0400] http: binding /process-template:process-template:template.os/assets/index-S9W2fblt.js, authenticated, open, cached
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: request for /rpc:distro:sys/message
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: passing on RPC message to vfs:distro:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: request for /rpc:distro:sys/message
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: passing on RPC message to vfs:distro:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: request for /rpc:distro:sys/message
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: passing on RPC message to vfs:distro:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: request for /rpc:distro:sys/message
+[Sun, 23 Mar 2025 23:26:47 -0400] http-server: passing on RPC message to tester:tester:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: got Run
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: tester: running [DirEntry { path: "tester:sys/tests/process-template-test.wasm", file_type: File }]...
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: tester: request_caps: [Capability { issuer: Address { node: "client0.os", process: ProcessId { process-name: "process-template", package-name: "process-template", publisher-node: "template.os" } }, params: "\"messaging\"" }, Capability { issuer: Address { node: "client0.os", process: ProcessId { process-name: "vfs", package-name: "distro", publisher-node: "sys" } }, params: "\"messaging\"" }]
+tester: grant_caps: [(ProcessId { process-name: "process-template", package-name: "process-template", publisher-node: "template.os" }, "\"messaging\""), (ProcessId { process-name: "vfs", package-name: "distro", publisher-node: "sys" }, "\"messaging\"")]
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: spawned a new process
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Creating log file for client0.os@16800781485344070336:tester:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Created drive at path: /tester:sys/test_logs
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Creating log file at: /tester:sys/test_logs/process-template-test.log
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Log file created successfully
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: handle_message called
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Init tests called with our address: client0.os@16800781485344070336:tester:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Message source: Address { node: "client0.os", process: ProcessId { process-name: "tester", package-name: "tester", publisher-node: "sys" } }
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: node_names: ["client0.os", "client1.os", "client1.os"]
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: We are the master node, proceeding with test
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Processing node names: ["client0.os", "client1.os", "client1.os"]
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Node client0.os is a client
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Node client1.os is a client
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Node client1.os is a client
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Found 3 client addresses: [Address { node: "client0.os", process: ProcessId { process-name: "process-template", package-name: "process-template", publisher-node: "template.os" } }, Address { node: "client1.os", process: ProcessId { process-name: "process-template", package-name: "process-template", publisher-node: "template.os" } }, Address { node: "client1.os", process: ProcessId { process-name: "process-template", package-name: "process-template", publisher-node: "template.os" } }]
+[Sun, 23 Mar 2025 23:26:47 -0400] net: attempting to connect to client1.os directly
+[Sun, 23 Mar 2025 23:26:47 -0400] net: connected to client1.os directly
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Tests completed successfully
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Sent success response
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: handle_message completed
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: handle_message called
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: Init tests called with our address: client0.os@16800781485344070336:tester:sys
+[Sun, 23 Mar 2025 23:26:47 -0400] tester:sys: test_runner: done running [DirEntry { path: "tester:sys/tests/process-template-test.wasm", file_type: File }]
+[Sun, 23 Mar 2025 23:26:47 -0400] net: error receiving message: websocket closed

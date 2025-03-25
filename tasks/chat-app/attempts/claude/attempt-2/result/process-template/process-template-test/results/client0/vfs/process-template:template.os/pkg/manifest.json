@@ -1,0 +1,15 @@
+[
+    {
+        "process_name": "process-template",
+        "process_wasm_path": "/process-template.wasm",
+        "on_exit": "Restart",
+        "request_networking": true,
+        "request_capabilities": [
+            "http-server:distro:sys",
+            "vfs:distro:sys",
+            "timer:distro:sys"
+        ],
+        "grant_capabilities": [],
+        "public": true
+    }
+]

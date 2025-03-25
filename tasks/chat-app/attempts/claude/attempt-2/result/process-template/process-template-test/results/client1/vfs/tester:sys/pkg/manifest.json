@@ -1,0 +1,26 @@
+[
+    {
+        "process_name": "tester",
+        "process_wasm_path": "/tester.wasm",
+        "on_exit": "Restart",
+        "request_networking": true,
+        "request_capabilities": [
+            "eth:distro:sys",
+            "http-client:distro:sys",
+            "http-server:distro:sys",
+            "kernel:distro:sys",
+            "kv:distro:sys",
+            "sqlite:distro:sys",
+            "state:distro:sys",
+            "terminal:distro:sys",
+            "timer:distro:sys",
+            "vfs:distro:sys"
+        ],
+        "grant_capabilities": [
+            "kv:distro:sys",
+            "sqlite:distro:sys",
+            "vfs:distro:sys"
+        ],
+        "public": true
+    }
+]

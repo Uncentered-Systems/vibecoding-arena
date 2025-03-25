@@ -1,5 +1,66 @@
 .DS_Store
 **/.DS_Store
-utilities/process-lib/hyperware_process_lib-1.0.3
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
 venv/
+env/
+*/venv/
+**/venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Rust
+target/
+**/target/
+Cargo.lock
+debug/
+release/
+*.rlib
+*.rmeta
+*.dylib
+*.dll
+*.so
+*.so.*
+*.a
+
+# Node.js
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+.yarn-integrity
+*.tgz
+
+# Resources (as per your original gitignore)
 */**/resources/
+
+# Specific directories
+utilities/process-lib/hyperware_process_lib-1.0.3/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~

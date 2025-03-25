@@ -1,0 +1,37 @@
+[
+    {
+        "process_name": "contacts",
+        "process_wasm_path": "/contacts.wasm",
+        "on_exit": "Restart",
+        "request_networking": false,
+        "request_capabilities": [
+            "eth:distro:sys",
+            "homepage:homepage:sys",
+            "http-server:distro:sys",
+            "vfs:distro:sys"
+        ],
+        "grant_capabilities": [
+            "eth:distro:sys",
+            "http-server:distro:sys",
+            "terminal:terminal:sys",
+            {
+                "process": "terminal:terminal:sys",
+                "params": "ReadNameOnly"
+            },
+            {
+                "process": "terminal:terminal:sys",
+                "params": "Read"
+            },
+            {
+                "process": "terminal:terminal:sys",
+                "params": "Add"
+            },
+            {
+                "process": "terminal:terminal:sys",
+                "params": "Remove"
+            },
+            "vfs:distro:sys"
+        ],
+        "public": false
+    }
+]

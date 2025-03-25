@@ -1,0 +1,17 @@
+[
+    {
+        "process_name": "process-template-test",
+        "process_wasm_path": "/process-template-test.wasm",
+        "on_exit": "Restart",
+        "request_networking": false,
+        "request_capabilities": [
+            "process-template:process-template:template.os",
+            "vfs:distro:sys"
+        ],
+        "grant_capabilities": [
+            "process-template:process-template:template.os",
+            "vfs:distro:sys"
+        ],
+        "public": true
+    }
+]

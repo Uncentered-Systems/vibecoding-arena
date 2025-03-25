@@ -1,0 +1,54 @@
+Found client nodes: ["client0.os", "client1.os", "client1.os"]
+Client addresses: [Address { node: "client0.os", process: ProcessId { process-name: "process-template", package-name: "process-template", publisher-node: "template.os" } }, Address { node: "client1.os", process: ProcessId { process-name: "process-template", package-name: "process-template", publisher-node: "template.os" } }, Address { node: "client1.os", process: ProcessId { process-name: "process-template", package-name: "process-template", publisher-node: "template.os" } }]
+----------------------------------------
+Starting client operations
+GetStatus response from client client0.os@process-template:process-template:template.os: Object {"message": String("Message received"), "message_count": Number(2), "status": String("ok")}
+GetHistory response from client client0.os@process-template:process-template:template.os: Object {"message": String("Message received"), "message_count": Number(3), "status": String("ok")}
+CustomMessage response from client client0.os@process-template:process-template:template.os: Object {"message": String("Message received"), "message_count": Number(4), "status": String("ok")}
+All operations completed for client client0.os@process-template:process-template:template.os
+Done running client operations for client0.os@process-template:process-template:template.os, 
+GetStatus response from client client1.os@process-template:process-template:template.os: Object {"echo": String("GetStatus"), "message": String("JSON message received"), "status": String("ok"), "timestamp": Number(1742786807)}
+GetHistory response from client client1.os@process-template:process-template:template.os: Object {"echo": String("GetHistory"), "message": String("JSON message received"), "status": String("ok"), "timestamp": Number(1742786807)}
+CustomMessage response from client client1.os@process-template:process-template:template.os: Object {"echo": Object {"CustomMessage": Object {"content": String("test message"), "message_type": String("test")}}, "message": String("JSON message received"), "status": String("ok"), "timestamp": Number(1742786807)}
+All operations completed for client client1.os@process-template:process-template:template.os
+Done running client operations for client1.os@process-template:process-template:template.os, 
+GetStatus response from client client1.os@process-template:process-template:template.os: Object {"echo": String("GetStatus"), "message": String("JSON message received"), "status": String("ok"), "timestamp": Number(1742786807)}
+GetHistory response from client client1.os@process-template:process-template:template.os: Object {"echo": String("GetHistory"), "message": String("JSON message received"), "status": String("ok"), "timestamp": Number(1742786807)}
+CustomMessage response from client client1.os@process-template:process-template:template.os: Object {"echo": Object {"CustomMessage": Object {"content": String("test message"), "message_type": String("test")}}, "message": String("JSON message received"), "status": String("ok"), "timestamp": Number(1742786807)}
+All operations completed for client client1.os@process-template:process-template:template.os
+Done running client operations for client1.os@process-template:process-template:template.os, 
+Starting Hyperchat application tests
+Starting Hyperchat tests
+Testing client: client0.os@process-template:process-template:template.os
+Testing HTTP API endpoints
+API response: {"message":"Message received","message_count":5,"status":"ok"}
+HTTP API tests passed
+Testing external messages
+Text message response: {"message":"Message received","message_count":6,"status":"ok"}
+JSON message response: {"message":"Message received","message_count":7,"status":"ok"}
+External message tests passed
+Completed tests for client: client0.os@process-template:process-template:template.os
+Testing client: client1.os@process-template:process-template:template.os
+Testing HTTP API endpoints
+API response: {"echo":{"body":"","headers":{"Content-Type":"application/json"},"method":"GET","path":"/api"},"message":"JSON message received","status":"ok","timestamp":1742786807}
+HTTP API tests passed
+Testing external messages
+Text message response: {"echo":"Hello from test client!","message":"Text message received","status":"ok","timestamp":1742786807}
+JSON message response: {"echo":{"content":"Test message from external system","conversation_id":"test-conv-123","sender":"test-client","type":"chat_message"},"message":"JSON message received","status":"ok","timestamp":1742786807}
+External message tests passed
+Completed tests for client: client1.os@process-template:process-template:template.os
+Testing client: client1.os@process-template:process-template:template.os
+Testing HTTP API endpoints
+API response: {"echo":{"body":"","headers":{"Content-Type":"application/json"},"method":"GET","path":"/api"},"message":"JSON message received","status":"ok","timestamp":1742786807}
+HTTP API tests passed
+Testing external messages
+Text message response: {"echo":"Hello from test client!","message":"Text message received","status":"ok","timestamp":1742786807}
+JSON message response: {"echo":{"content":"Test message from external system","conversation_id":"test-conv-123","sender":"test-client","type":"chat_message"},"message":"JSON message received","status":"ok","timestamp":1742786807}
+External message tests passed
+Completed tests for client: client1.os@process-template:process-template:template.os
+All Hyperchat tests completed successfully
+Hyperchat tests completed successfully
+All tests completed
+----------------------------------------
+Done running client operations
+Tests completed successfully

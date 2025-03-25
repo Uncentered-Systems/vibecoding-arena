@@ -1,0 +1,16 @@
+[
+    {
+        "process_name": "homepage",
+        "process_wasm_path": "/homepage.wasm",
+        "on_exit": "Restart",
+        "request_networking": false,
+        "request_capabilities": [
+            "http-server:distro:sys",
+            "vfs:distro:sys"
+        ],
+        "grant_capabilities": [
+            "http-server:distro:sys"
+        ],
+        "public": false
+    }
+]

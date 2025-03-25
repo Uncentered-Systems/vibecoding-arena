@@ -1,0 +1,27 @@
+interface process-template {
+    variant request {
+        send(send-request),
+        /// history of process-template with given node
+        history(string),
+    }
+
+    variant response {
+        send,
+        history(list<process-template-message>),
+    }
+
+    record send-request {
+        target: string,
+        message: string,
+    }
+
+    record process-template-message {
+        author: string,
+        content: string,
+    }
+}
+
+world process-template-template-dot-os-v0 {
+    import process-template;
+    include process-v1;
+}
